@@ -5,49 +5,66 @@
 int main (){
 printf ("Desafio de cadastrar duas cartas");
 
-
-
-    int carta1;
+    int Carta1;
     int Carta2; 
-    char Estado;
-    char Cidade, [50];
-    int População;
-    float Area, (Km2);
-    float PIB;
-    int Pontos_turisticos;
-    
+    char Estado1;
+    char Código1[4];
+    char Cidade1[50];
+    int Populacao1;
+    float Area1;
+    float PIB1;
+    int PontosTuristicos1;
+
+    /* Carta 2 */
+    char Estado2;
+    char Código2[4];
+    char Cidade2[50];
+    int Populacao2;
+    float Area2;
+    float PIB2;
+    int PontosTuristicos2;char estado1;
+    char Código1[4];
+    char Cidade1[50];
+    int Populacao1;
+    float Area1;
+    float PIB1;
+    int PontosTuristicos1;
+
+    /* Carta 2 */
+    char Estado2;
+    char Código2[4];
+    char cidade2[50];
+    int Populacao2;
+    float Area2;
+    float PIB2;
+    int PontosTuristicos2;
 
     /* sintexe scanf.                
     scanf ("formato1, fromato2, formato3", &variavel1, variavel2, variavel3).
     */
 
-   printf("Digite o número da carta: ");
-    scanf("%d", &carta1);
-    printf("Sua carta é: %d\n", carta1);
+  printf("Cadastro da Carta 1\n");
 
-    printf ("Qual seu EStado?: ");
-    scanf ("%s", &Estado);
-    printf ("Seu estado é: %s\n", Estado);
+    printf("Estado (A a H): ");
+    scanf(" %c", &Estado1);
 
-    printf ("Digite sua Cidade: ");
-    scanf ("%s", &Cidade);
-    printf ("Sua Cudade é: %s", Cidade);
+    printf("Codigo da Carta (ex: A01): ");
+    scanf("%s", Código1);
 
-    printf ("População: ");
-    scanf ("%s", &População);
-    printf ("População é: %s", População);
+    printf("Nome da Cidade: ");
+    scanf(" %[^\n]", Cidade1);
 
-    printf ("Area: ");
-    scanf ("%e", &Area);
-    printf("A area é: ");
+    printf("Populacao: ");
+    scanf("%d", &Populacao1);
 
-    printf ("PIB: ");
-    scanf ("%e", &PIB);
-    printf ("Seu PIB é: ");
+    printf("Area (em km²): ");
+    scanf("%f", &Area1);
 
-    printf ("Pontos turistucos: ");
-    scanf ("%d", &Pontos_turisticos);
+    printf("PIB (em bilhões de reais): ");
+    scanf("%f", &PIB1);
 
+    printf("Numero de Pontos Turisticos: ");
+    scanf("%d", &PontosTuristicos1);
 
 
     /* %d: imprime um inteiro no formato Decimal.
@@ -90,5 +107,6 @@ População: 6748000
 Área: 1200.25 km²
 
 PIB: 300.50 bilhões de reais
+
 
 Número de Pontos Turísticos: 30 */
