@@ -15,20 +15,15 @@ printf ("Desafio de cadastrar duas cartas");
     float PIB1;
     int PontosTuristicos1;
 
-    /* Carta 2 */
-    char Estado2;
-    char Código2[4];
-    char Cidade2[50];
-    int Populacao2;
-    float Area2;
-    float PIB2;
-    int PontosTuristicos2;char estado1;
+    /* Carta 1 */
+    char Estado1;
     char Código1[4];
     char Cidade1[50];
     int Populacao1;
     float Area1;
     float PIB1;
-    int PontosTuristicos1;
+    int PontosTuristicos1;char estado1;
+  
 
     /* Carta 2 */
     char Estado2;
@@ -37,7 +32,7 @@ printf ("Desafio de cadastrar duas cartas");
     int Populacao2;
     float Area2;
     float PIB2;
-    int PontosTuristicos2;
+    int PontosTuristicos2; char estado2;
 
     /* sintexe scanf.                
     scanf ("formato1, fromato2, formato3", &variavel1, variavel2, variavel3).
@@ -110,3 +105,4 @@ PIB: 300.50 bilhões de reais
 
 
 Número de Pontos Turísticos: 30 */
+
