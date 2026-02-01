@@ -1,4 +1,5 @@
-includ (studio.h)
+includ <stdio.h>
+int main () {
 
 
 
