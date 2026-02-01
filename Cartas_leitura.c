@@ -1,7 +1,7 @@
 includ <stdio.h>
 int main () {
 
-
+pritf ("Leitura das Cartas 1 e 2");
 
 
 printf("\n====================\n");
