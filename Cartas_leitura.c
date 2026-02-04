@@ -1,10 +1,10 @@
 includ <stdio.h>
 int main () {
 
- int Carta1;
-    int Carta2; 
-    char Estado1;
-    char Código1[4];
+    int Carta1 = "A01";
+    int Carta2 = "B02"; 
+    char Estado1 = "Sao Paulo";
+    char Código1[4] = SP;
     char Cidade1[50];
     int Populacao1;
     float Area1;
@@ -57,3 +57,35 @@ printf("\n====================\n");
 
     return 0;
 }
+/* 
+Código: A01
+
+Nome da Cidade: São Paulo
+
+População: 12325000
+
+Área: 1521.11 km²
+
+PIB: 699.28 bilhões de reais
+
+Número de Pontos Turísticos: 50
+
+ 
+
+Carta 2:
+
+Estado: B
+
+Código: B02
+
+Nome da Cidade: Rio de Janeiro
+
+População: 6748000
+
+Área: 1200.25 km²
+
+PIB: 300.50 bilhões de reais
+
+
+Número de Pontos Turísticos: 30 */
+
