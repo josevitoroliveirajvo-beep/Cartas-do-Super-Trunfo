@@ -1,6 +1,37 @@
 includ <stdio.h>
 int main () {
 
+ int Carta1;
+    int Carta2; 
+    char Estado1;
+    char Código1[4];
+    char Cidade1[50];
+    int Populacao1;
+    float Area1;
+    float PIB1;
+    int PontosTuristicos1;
+
+    /* Carta 1 */
+    char Estado1;
+    char Código1[4];
+    char Cidade1[50];
+    int Populacao1;
+    float Area1;
+    float PIB1;
+    int PontosTuristicos1;char estado1;
+  
+
+    /* Carta 2 */
+    char Estado2;
+    char Código2[4];
+    char cidade2[50];
+    int Populacao2;
+    float Area2;
+    float PIB2;
+    int PontosTuristicos2; char estado2;
+
+    /* sintexe scanf.                
+    scanf ("formato1, fromato2, formato3", &variavel1,
 pritf ("Leitura das Cartas 1 e 2");
 
 
