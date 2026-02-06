@@ -1,4 +1,4 @@
-includ <stdio.h>
+#includ <stdio.h>
 int main () {
 
     int Carta1 = "A01";
