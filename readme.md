@@ -43,3 +43,4 @@ gcc Cartas_leitura.c -o cartas_leitura
 
 - Linguagem C
 - Biblioteca padrao `stdio.h`
+- Python
