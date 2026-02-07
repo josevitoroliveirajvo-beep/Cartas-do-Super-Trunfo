@@ -60,10 +60,6 @@ printf ("Desafio de cadastrar duas cartas");
 
     printf("Numero de Pontos Turisticos: ");
     scanf("%d", &PontosTuristicos1);
-
-    
-    printf("Numero de Pontos Turisticos: ");
-    scanf("%d", &PontosTuristicos1);
     /* %d: imprime um inteiro no formato Decimal.
      %i: equivalente a %d.
      %f: imprime um numero de ponto flutuante no formato padrao.
